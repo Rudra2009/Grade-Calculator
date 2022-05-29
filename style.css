@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Luckiest Guy', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #101016;
+}
+.container{
+    background-color: #2b0630;
+    color: #78866b;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px #FEFEFA;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-left: 3rem;
+}
+.right-card > input {
+    text-align: center;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 1000;
+    height: 30px;
+    border-radius: 50px;
+}
+.right-card > button{
+    align-items: center;
+    font-size: 15px;
+    font-weight: 1000;
+    height: 50px;
+    outline: unset;
+    border: inset;
+    border-radius: 50px;
+    color: #78866b;
+    cursor: pointer;
+}
+.left-card{
+    font-size: 30px;
+    align-items: center;
+}
+.Result{
+    text-align: center;
+}
